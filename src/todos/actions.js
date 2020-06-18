@@ -11,9 +11,9 @@ export const removeTodo = (todo) => ({
 })
 
 export const MARKAS_COMPLETED = 'MARKAS_COMPLETED'
-export const markAsCompleted = (text) => ({
+export const markAsCompleted = (todo) => ({
     type: MARKAS_COMPLETED,
-    payload: { text }
+    payload: { todo }
 })
 
 export const LOAD_TODOS_IN_PROGRESS = 'LOAD_TODOS_IN_PROGRESS'
